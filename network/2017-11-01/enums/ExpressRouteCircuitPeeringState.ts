@@ -1,0 +1,16 @@
+
+/**
+ * @extensible
+ * @description The state of peering. Possible values are: 'Disabled' and 'Enabled'
+ * @todo temporary-reuse-marker
+ */
+export enum ExpressRouteCircuitPeeringState {
+    /**
+     *
+     */
+    Disabled = 'Disabled',
+    /**
+     *
+     */
+    Enabled = 'Enabled'
+}
